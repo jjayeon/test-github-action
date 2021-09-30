@@ -1,25 +1,25 @@
 {
-  "name": "@jjy/test-github-action",
-  "version": "1.0.0",
-  "description": "hello world for github actions",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jjayeon/test-github-action.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jjayeon/test-github-action/issues"
-  },
-  "homepage": "https://github.com/jjayeon/test-github-action#readme",
-  "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.0",
-    "@vercel/ncc": "^0.31.1"
-  }
+    "name": "@jjy/test-github-action",
+    "version": "1.0.0",
+    "description": "hello world for github actions",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jjayeon/test-github-action.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jjayeon/test-github-action/issues"
+    },
+    "homepage": "https://github.com/jjayeon/test-github-action#readme",
+    "dependencies": {
+        "@actions/core": "^1.6.0",
+        "@actions/github": "^5.0.0",
+        "@vercel/ncc": "^0.31.1"
+    }
 }
